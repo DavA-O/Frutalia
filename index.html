@@ -65,44 +65,44 @@
     }
 
     #inicio {
-  position: relative;
-  height: 70vh;
-  overflow: hidden;
-}
+      position: relative;
+      height: 70vh;
+      overflow: hidden;
+    }
 
-.inicio-contenido {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(255,255,255,0.95);
-  padding: 1.5em 2em;
-  border-radius: 10px;
-  text-align: center;
-  max-width: 600px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
+    .inicio-contenido {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: rgba(255,255,255,0.95);
+      padding: 1.5em 2em;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 600px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
 
-.inicio-contenido h1 {
-  font-size: 1.6em;
-  color: #222;
-  margin-bottom: 0.6em;
-}
+    .inicio-contenido h1 {
+      font-size: 1.6em;
+      color: #222;
+      margin-bottom: 0.6em;
+    }
 
-.inicio-contenido p {
-  font-size: 1em;
-  margin-bottom: 1em;
-}
+    .inicio-contenido p {
+      font-size: 1em;
+      margin-bottom: 1em;
+    }
 
-.inicio-contenido a {
-  background: #30336b;
-  color: white;
-  padding: 0.6em 1.2em;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 0.9em;
-}
+    .inicio-contenido a {
+      background: #30336b;
+      color: white;
+      padding: 0.6em 1.2em;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 0.9em;
+    }
 
     /* Swiper carrusel */
     .swiper {
@@ -143,6 +143,26 @@
       flex-wrap: wrap;
       gap: 1em;
       margin-top: 2em;
+    }
+
+    /* Sección Quiénes Somos personalizada */
+    #nosotros {
+      background-color: #f4f4f4;
+      padding: 2em 1em;
+    }
+    #nosotros h2 {
+      text-align: center;
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+    #nosotros div {
+      max-width: 900px;
+      margin: auto;
+      font-size: 1.1em;
+      line-height: 1.7;
+    }
+    #nosotros strong {
+      color: #e67e22;
     }
   </style>
 </head>
@@ -187,7 +207,6 @@
     </p>
     <h3 style="margin-top: 1.5em;">¡Comencemos!</h3>
     <div class="carritos-iconos">
-      
     </div>
   </section>
 
@@ -211,7 +230,11 @@
 
   <section id="nosotros">
     <h2>¿Quiénes Somos?</h2>
-    <p>Frutalia nació del amor por la naturaleza y el deseo de ofrecer opciones saludables y deliciosas a quienes buscan una vida más sana. Apoyamos la producción local y el comercio justo.</p>
+    <div>
+      <p><strong>Pasión por lo natural:</strong> Frutalia nació del amor por la naturaleza y el deseo de compartir opciones saludables con el mundo.</p>
+      <p><strong>Experiencias con propósito:</strong> Creamos momentos únicos a través de nuestros carritos de fruta, jugos y snacks pensados para todo tipo de evento.</p>
+      <p><strong>Compromiso local:</strong> Trabajamos con productores locales y fomentamos el comercio justo en cada paso del proceso.</p>
+    </div>
   </section>
 
   <section id="contacto">
